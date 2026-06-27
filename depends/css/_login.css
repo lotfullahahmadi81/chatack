@@ -1,0 +1,121 @@
+.login-blue {
+  background-color: var(--background-color);
+  border-top-right-radius: 10%;
+  height: 93vh;
+  color: var(--text-color);
+}
+.chatack {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+.button {
+  width: 250px;
+  height: 50px;
+  background-color: var(--background-color-a);
+  border: 1px solid var(--text-color);
+  border-radius: 32px;
+  color: var(--text-color);
+  font-size: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 1px 1px var(--text-color);
+}
+.button:hover {
+  background-color: var(--background-color);
+}
+
+.login-white h1 {
+  margin-top: 100px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+.login-white p {
+  color: var(--text-color);
+  font-weight: bold;
+}
+.login-white input {
+  color: var(--text-color);
+  border: none;
+  border-bottom: 1px solid var(--text-color);
+  margin-top: 60px;
+}
+.login-white input:focus {
+  outline: none;
+}
+.login-white input[type="email"],
+input[type="password"],
+input[ype="number"],
+input[type="text"] {
+  width: 300px;
+}
+.email,
+.password {
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 6px !important;
+  border-top-left-radius: 5px;
+}
+.login-white input[type="submit"],
+input[type="button"] {
+  width: 200px;
+  height: 40px;
+  background-color: var(--background-color);
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 32px;
+}
+
+.logingin {
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  margin-top: 50px;
+}
+.singingin {
+  display: none;
+}
+@media screen and (max-width: 780px) {
+  .login-blue {
+    display: none;
+  }
+  .login-white {
+    box-shadow: 0 0 4px 1px var(--text-color);
+    min-height: 90vh;
+    border-radius: 12px;
+    background-color: var(--background-color);
+  }
+  .logingin {
+    background-color: var(--text-color) !important;
+    color: var(--background-color) !important;
+  }
+  .logingin:hover {
+    background-color: var(--background-color-a) !important;
+    color: var(--text-color) !important;
+  }
+  .singingin {
+    display: block;
+    margin-top: 20px !important;
+  }
+  .singingin a {
+    color: var(--background-color-a);
+  }
+  .singingin a:hover {
+    color: var(--text-color);
+  }
+  .login-white input[type="email"],
+  input[type="password"],
+  input[ype="number"],
+  input[type="text"] {
+    background-color: var(--background-color-a);
+    font-size: 16px;
+    border-top-right-radius: 5px;
+  }
+  .email,
+  .password {
+    margin-bottom: 2px !important;
+    background-color: var(--background-color-a);
+    border-top-left-radius: 5px;
+  }
+}
